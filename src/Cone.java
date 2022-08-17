@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public abstract class Cone extends Shape3D{
+public class Cone extends Shape3D{
     private double baseRadius;
     private double height;
     private double SA;
