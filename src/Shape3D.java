@@ -1,7 +1,10 @@
+
+
 public abstract class Shape3D {
     protected String name;
     protected String color;
     protected Location loc;
+
 
     public Shape3D() {
         name = "";
@@ -14,6 +17,7 @@ public abstract class Shape3D {
         this.color = color;
         this.loc = loc;
     }
+
 
     public String getName() {
         return name;
